@@ -1,3 +1,6 @@
+.body {
+  background-image: url(https://ferma-biz.ru/wp-content/uploads/2020/09/Christmas_Vector_468884_1920x1200.jpg);
+}
 .timer__items {
     display: flex;
     font-size: 48px;
@@ -24,5 +27,11 @@
     position: absolute;
     right: -15px;
   }
-div.center { background: hsl(60, 100%, 97%); }
-div.center img { display: block; width: 33%; height: auto; margin: 0 auto; }
+  .timer {
+    width: fit-content;
+    height: fit-content;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
