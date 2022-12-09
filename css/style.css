@@ -3,7 +3,7 @@
 }
 .timer__items {
     display: flex;
-    font-size: 48px;
+    font-size: 78px;
   }
   .timer__item {
     position: relative;
@@ -20,12 +20,12 @@
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    font-size: 14px;
+    font-size: 22px;
   }
   .timer__item:not(:last-child)::after {
     content: ':';
     position: absolute;
-    right: -15px;
+    right: -18px;
   }
   .timer {
     width: fit-content;
