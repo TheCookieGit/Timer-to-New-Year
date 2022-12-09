@@ -34,7 +34,7 @@
     overflow: auto;
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 60%; left: 32%;
   }
   .timer__items{
     color: white;
@@ -53,20 +53,13 @@
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
   }
-  /* .text{
-    width: fit-content;
-    height: fit-content;
-    vertical-align: middle;
-    margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0; 
-    color: white;
-    font-size: 48px;
-  } */
-  .text {
-    display: table-cell;
-    width: 1280px;
-    height: 625px;
-    padding: 40%;
-    vertical-align: middle;
-    color: white;
-    }
+ .text{
+  width: fit-content;
+  height: fit-content;
+  /* overflow: auto; */
+  margin: auto;
+  position: absolute;
+  top: 55%; left: 25%;
+  color: white;
+  font-size: 52px;
+ }
