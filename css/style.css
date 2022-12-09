@@ -1,5 +1,6 @@
-.body {
+.background {
   background-image: url(https://ferma-biz.ru/wp-content/uploads/2020/09/Christmas_Vector_468884_1920x1200.jpg);
+  background-repeat: no-repeat;
 }
 .timer__items {
     display: flex;
@@ -38,3 +39,34 @@
   .timer__items{
     color: white;
   }
+  .donate{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    /* position: absolute; */
+    top: 0; left: 0; bottom: 0; right: 0;
+    color: white;
+    font-size: 64px;
+  }
+  .donate-widget{
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+  /* .text{
+    width: fit-content;
+    height: fit-content;
+    vertical-align: middle;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0; 
+    color: white;
+    font-size: 48px;
+  } */
+  .text {
+    display: table-cell;
+    width: 1280px;
+    height: 625px;
+    padding: 40%;
+    vertical-align: middle;
+    color: white;
+    }
