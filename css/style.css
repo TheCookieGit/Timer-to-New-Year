@@ -13,6 +13,9 @@ div.wrapper {
 .background {
   background-image: url(https://ferma-biz.ru/wp-content/uploads/2020/09/Christmas_Vector_468884_1920x1200.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 .timer__items {
     display: flex;
