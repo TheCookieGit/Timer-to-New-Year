@@ -80,3 +80,7 @@ div.wrapper {
     margin-top: -40px;
     font-size: 26px;
    }
+   .navbar{
+    position: relative;
+    z-index: 2;
+   }
