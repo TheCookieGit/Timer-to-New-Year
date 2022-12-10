@@ -16,7 +16,7 @@ div.wrapper {
 }
 .timer__items {
     display: flex;
-    font-size: 78px;
+    font-size: 72px;
   }
   .timer__item {
     position: relative;
@@ -45,7 +45,7 @@ div.wrapper {
     height: fit-content;
     margin: auto;
     position: fixed;
-    top: 58%; left: 0; right: 0;
+    top: 55%; left: 0; right: 0;
   }
   .timer__items{
     color: white;
@@ -77,5 +77,5 @@ div.wrapper {
  .text{
   color: white;
   margin-top: -40px;
-  font-size: 52px;
+  font-size: 42px;
  }
