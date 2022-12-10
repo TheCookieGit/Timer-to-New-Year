@@ -1,3 +1,15 @@
+div.wrapper {
+  min-width: 960px;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 0;
+  }
+  div.wrapper2 {
+    min-width: 960px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    }
 .background {
   background-image: url(https://ferma-biz.ru/wp-content/uploads/2020/09/Christmas_Vector_468884_1920x1200.jpg);
   background-repeat: no-repeat;
@@ -11,7 +23,7 @@
     min-width: 60px;
     margin-left: 10px;
     margin-right: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; 
     text-align: center;
   }
   .timer__item::before {
@@ -31,10 +43,9 @@
   .timer {
     width: fit-content;
     height: fit-content;
-    overflow: auto;
     margin: auto;
-    position: absolute;
-    top: 60%; left: 32%;
+    position: fixed;
+    top: 58%; left: 0; right: 0;
   }
   .timer__items{
     color: white;
@@ -53,13 +64,18 @@
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
   }
- .text{
+ /* .text{
   width: fit-content;
   height: fit-content;
-  /* overflow: auto; */
   margin: auto;
+  position: fixed;
   position: absolute;
-  top: 55%; left: 25%;
+  top: 52%; left:%;
   color: white;
+  font-size: 52px;
+ } */
+ .text{
+  color: white;
+  margin-top: -40px;
   font-size: 52px;
  }
