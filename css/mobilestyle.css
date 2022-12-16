@@ -1,3 +1,4 @@
+/* Честно хз что это */
 div.wrapper {
     min-width: 960px;
     max-width: 75%;
@@ -10,6 +11,7 @@ div.wrapper {
       margin: 0 auto;
       padding: 0;
       }
+  /* Фон */
   .background {
     background-image: url(https://ferma-biz.ru/wp-content/uploads/2020/09/Christmas_Vector_468884_1920x1200.jpg);
     background-repeat: no-repeat;
@@ -17,6 +19,7 @@ div.wrapper {
     background-position: center center;
     background-attachment: fixed;
   }
+  /* Настройка таймера */
   .timer__items {
       display: flex;
       font-size: 56px;
@@ -53,11 +56,11 @@ div.wrapper {
     .timer__items{
       color: white;
     }
+    /* Донат виджет */
     .donate{
       width: fit-content;
       height: fit-content;
       margin: auto;
-      /* position: absolute; */
       top: 0; left: 0; bottom: 0; right: 0;
       color: white;
       font-size: 64px;
@@ -67,21 +70,13 @@ div.wrapper {
       margin: auto;
       left: 0; bottom: 0; right: 0;
     }
-   /* .text{
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    position: fixed;
-    position: absolute;
-    top: 52%; left:%;
-    color: white;
-    font-size: 52px;
-   } */
+    /* Текст над таймером */
    .text{
     color: white;
     margin-top: -40px;
     font-size: 26px;
    }
+   /* Чтобы навбар не заезжал под виджет */
    .navbar{
     position: relative;
     z-index: 2;

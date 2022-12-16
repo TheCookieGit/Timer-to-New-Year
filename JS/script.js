@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // конечная дата, например 1 июля 2021
+    // конечная дата
     const deadline = new Date(new Date().getFullYear(), new Date().getMonth() + 1, 01);
     // id таймера
     let timerId = null;
-    // склонение числительных
+    // изменение слов под числами
     function declensionNum(num, words) {
       return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
     }
